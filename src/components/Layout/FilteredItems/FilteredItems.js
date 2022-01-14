@@ -20,8 +20,22 @@ const FilteredItems = (props) => {
     }
 
     let filtered = null;
+    let clearButtonIsVisible = false;
+
 
     if (allSelectedItems !== null && allSelectedItems !== undefined) {
+
+        Object.keys(allSelectedItems).forEach(key => {
+
+            if (allSelectedItems[key].length !== 0) {
+                clearButtonIsVisible = true;
+            } else {
+                clearButtonIsVisible = false;
+            }
+        });
+
+
+
         filtered = <Card >
             {Object.keys(allSelectedItems).map((key) => {
                 {
@@ -32,12 +46,12 @@ const FilteredItems = (props) => {
                         data={allSelectedItems[key]} />
                 }
             })}
-            <Button onClick={onClear}>Clear All</Button>
+            {clearButtonIsVisible && <Button onClick={onClear}>Clear All</Button>}
         </Card>
     }
 
     return (<React.Fragment>
-        { filtered}
+        {clearButtonIsVisible && filtered}
     </React.Fragment>);
 
 }

@@ -77,6 +77,7 @@ const selectedSilce = createSlice({
             const filteredArray = arrayToRemoveFrom.filter(item => item.id != action.payload.id);
             updatedObjects[key] = filteredArray;
             state.selectedItemsObj = updatedObjects;
+            console.log(state.selectedItemsObj);
         },
         //clearAll applied filter items
         clearSelectedList(state, action) {
