@@ -5,7 +5,7 @@
   background: hsl(0, 95%, 25%);
   color: white;
   padding: 0.25rem  1.25rem 0.25rem 0.25rem;
-  position: relative;
+  /* position: relative; */
   margin: 2px;
 }
 
@@ -23,7 +23,7 @@
 
 
 .icon {
-    position: absolute;
+    /* position: absolute; */
     font-size: 12px;
     padding: 2px;
     cursor: pointer;

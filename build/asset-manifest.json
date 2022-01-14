@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/SmartPicker/static/css/main.0dd9816f.chunk.css",
-    "main.js": "/SmartPicker/static/js/main.0f065f71.chunk.js",
-    "main.js.map": "/SmartPicker/static/js/main.0f065f71.chunk.js.map",
+    "main.css": "/SmartPicker/static/css/main.ddee3c49.chunk.css",
+    "main.js": "/SmartPicker/static/js/main.a8b73965.chunk.js",
+    "main.js.map": "/SmartPicker/static/js/main.a8b73965.chunk.js.map",
     "runtime-main.js": "/SmartPicker/static/js/runtime-main.f5a53014.js",
     "runtime-main.js.map": "/SmartPicker/static/js/runtime-main.f5a53014.js.map",
-    "static/js/2.a60757aa.chunk.js": "/SmartPicker/static/js/2.a60757aa.chunk.js",
-    "static/js/2.a60757aa.chunk.js.map": "/SmartPicker/static/js/2.a60757aa.chunk.js.map",
+    "static/js/2.97b440c8.chunk.js": "/SmartPicker/static/js/2.97b440c8.chunk.js",
+    "static/js/2.97b440c8.chunk.js.map": "/SmartPicker/static/js/2.97b440c8.chunk.js.map",
     "index.html": "/SmartPicker/index.html",
-    "static/css/main.0dd9816f.chunk.css.map": "/SmartPicker/static/css/main.0dd9816f.chunk.css.map",
-    "static/js/2.a60757aa.chunk.js.LICENSE.txt": "/SmartPicker/static/js/2.a60757aa.chunk.js.LICENSE.txt",
+    "static/css/main.ddee3c49.chunk.css.map": "/SmartPicker/static/css/main.ddee3c49.chunk.css.map",
+    "static/js/2.97b440c8.chunk.js.LICENSE.txt": "/SmartPicker/static/js/2.97b440c8.chunk.js.LICENSE.txt",
     "static/media/logo.78a1ff74.jpg": "/SmartPicker/static/media/logo.78a1ff74.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f5a53014.js",
-    "static/js/2.a60757aa.chunk.js",
-    "static/css/main.0dd9816f.chunk.css",
-    "static/js/main.0f065f71.chunk.js"
+    "static/js/2.97b440c8.chunk.js",
+    "static/css/main.ddee3c49.chunk.css",
+    "static/js/main.a8b73965.chunk.js"
   ]
 }
