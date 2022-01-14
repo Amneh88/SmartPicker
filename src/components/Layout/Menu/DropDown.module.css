@@ -1,14 +1,19 @@
 .DropDownLayout {
-   
-    margin: 1rem auto;
   border-radius: 6px;
   background-color: white;
-  padding: 1rem;
-  width: 90%;
   max-width: 40rem;
-    position: absolute;
-  
+  position: absolute;
+  padding: 10px;
+
   }
+  .DropDownLayoutMoblie{
+    border-radius: 6px;
+  background-color: white;
+  max-width: 40rem;
+  position: absolute;
+  padding: 10px;
+  }
+
   .widow{
     position: absolute;
   }
@@ -26,6 +31,21 @@
 
 .button span {
   margin: 0 0.5rem;
+}
+
+@media screen and (max-width: 500px){
+
+   .DropDownLayoutMoblie {
+    display: block;
+    position: initial;
+  
+  }
+
+  .DropDownLayout {
+    width: 100%;
+    
+    left:0;
+  }
 }
  
 .footer{
@@ -54,3 +74,9 @@
   outline: none;
 }
 
+.container{
+  display: inline-block;
+}
+.mobileContainer{
+  display: block;
+}

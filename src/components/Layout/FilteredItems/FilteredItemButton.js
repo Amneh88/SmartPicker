@@ -2,7 +2,6 @@
 
 import React from 'react';
 import classes from './FilteredItemButton.module.css';
-import closeImage from '../../../assets/close.png'
 import Button from '../../UI/Button';
 
 const FilteredItemButton = (props) => {
@@ -15,12 +14,8 @@ const FilteredItemButton = (props) => {
     return (
         <Button className={classes.button}>
             <span>{props.title}</span>
-            <span
-                className={classes.image}>
-                <img src={closeImage}
-                    alt={'image'}
-                    onClick={handleClick} />
-            </span>
+            <i className={classes.icon} onClick={handleClick}>X</i>
+
         </Button>
     );
 };

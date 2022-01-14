@@ -1,0 +1,18 @@
+created 3 main components 
+Header : include logo
+
+filtered items to display filtered items and clear button:
+filtered items come from all selected items, if we click x to remove item will connect to category title => number of selected items .
+and we can clear all items.
+
+Main component for Menu :
+that includes dropdown component which includes the dropdown button and the container of items with apply and cancel button .
+and add the mobile changing style when resize the window to 500px.
+
+I used redux and redux toolkit to create slice which handle the selected items state.
+
+
+Note:
+I will explain every single line once requested.
+
+

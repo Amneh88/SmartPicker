@@ -1,3 +1,13 @@
+.mobileButton{
+    font: inherit;
+  border: 1px solid #230629;
+  border-radius: 5px;
+  background: hsl(0, 58%, 15%);
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  margin: 2px;
+}
 .button {
   font: inherit;
   border: 1px solid #230629;
@@ -9,18 +19,29 @@
   margin: 2px;
 }
 
+.mobileButton:hover,
+.mobileButton:active{
+    background: #42031194;
+  border-color: #110101af;
+}
 .button:hover,
 .button:active {
   background: #42031194;
   border-color: #110101af;
 }
 
+.mobileButton:focus{
+    background: #9c4d5e94;
+  border-color: #110101af;
+  outline: none;
+}
 .button:focus {
   background: #9c4d5e94;
   border-color: #110101af;
   outline: none;
 }
-.selected{
+
+.mobileButtonSelected{
 
   font: inherit;
   border: 1px solid #230629;
@@ -31,4 +52,28 @@
   margin: 2px;
   background: #9c4d5e94;
   border-color: #110101af;
+}
+.selected{
+  font: inherit;
+  border: 1px solid #230629;
+  border-radius: 5px;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  margin: 2px;
+  background: #9c4d5e94;
+  border-color: #110101af;
+}
+
+/* mobileButton{} */
+@media screen and (max-width: 500px){
+.mobileButton,
+.mobileButton:hover,
+.mobileButton:active,
+.mobileButton:focus{
+width:100%;
+}
+.mobileButtonSelected{
+  width:100%;
+}
 }

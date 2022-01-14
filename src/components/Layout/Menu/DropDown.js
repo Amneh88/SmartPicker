@@ -55,11 +55,16 @@ const DropDown = (props) => {
     const title = props.title + numberOfselected;
     const isOpenMenu = (props.openID === props.title)
 
-    return (<React.Fragment>
-        <DropDownButton isOpen={isOpenMenu} title={title} onClick={toggle} />
+
+    const style = (props.styleMobile ? classes.mobileContainer : classes.container);
+    const styleLayout = (props.styleMobile ? classes.DropDownLayoutMoblie : classes.DropDownLayout);
+
+    console.log(props.styleMobile);
+    return (<div className={style}>
+        <DropDownButton styleMobile={props.styleMobile} isOpen={isOpenMenu} title={title} onClick={toggle} />
         {
             isOpenMenu && (
-                <div className={classes.DropDownLayout} onClick={onDropDownLayOutClick}>
+                <div className={styleLayout} onClick={onDropDownLayOutClick}>
                     <ul >
                         {props.items.map(item => (
                             <li key={item.id}>
@@ -81,7 +86,7 @@ const DropDown = (props) => {
             )
         }
 
-    </React.Fragment >);
+    </div>);
 
 }
 

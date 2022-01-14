@@ -1,5 +1,25 @@
-.widow{
 
-    display: block;
-    /* position: absolute; */
-  }
+
+.btn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    padding: 5px;
+  font: inherit;
+  border: 1px solid #230629;
+  border-radius: 5px;
+  background: hsl(0, 58%, 15%);
+  color: white;
+  cursor: pointer;
+  margin: 2px;
+}
+
+
+@media screen and (max-width: 500px){
+
+   
+    .btn {
+        display: block;
+    }
+
+}

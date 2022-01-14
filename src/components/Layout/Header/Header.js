@@ -9,7 +9,7 @@ const Header = (props) => {
             <div className={classes['main-image']}>
                 <img src={logoImage} alt={'image'} />
             </div>
-            <h1>Smart Picker</h1>
+            {/* <h1>Smart Picker</h1> */}
         </header>
 
     </React.Fragment>);

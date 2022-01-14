@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SmartPicker/static/css/main.0dd9816f.chunk.css",
-    "main.js": "/SmartPicker/static/js/main.094c9864.chunk.js",
-    "main.js.map": "/SmartPicker/static/js/main.094c9864.chunk.js.map",
+    "main.js": "/SmartPicker/static/js/main.0f065f71.chunk.js",
+    "main.js.map": "/SmartPicker/static/js/main.0f065f71.chunk.js.map",
     "runtime-main.js": "/SmartPicker/static/js/runtime-main.f5a53014.js",
     "runtime-main.js.map": "/SmartPicker/static/js/runtime-main.f5a53014.js.map",
     "static/js/2.a60757aa.chunk.js": "/SmartPicker/static/js/2.a60757aa.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.f5a53014.js",
     "static/js/2.a60757aa.chunk.js",
     "static/css/main.0dd9816f.chunk.css",
-    "static/js/main.094c9864.chunk.js"
+    "static/js/main.0f065f71.chunk.js"
   ]
 }
