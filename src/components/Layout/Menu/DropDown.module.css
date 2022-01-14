@@ -1,0 +1,56 @@
+.DropDownLayout {
+   
+    margin: 1rem auto;
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+    position: absolute;
+  
+  }
+  .widow{
+    position: absolute;
+  }
+
+.selectedButton {     
+  font: inherit;
+  border: 1px solid #230629;
+  border-radius: 5px;
+  background: #741188;
+  border-color: #741188;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.button span {
+  margin: 0 0.5rem;
+}
+ 
+.footer{
+  align-items: center;
+}
+
+
+.button {
+  font: inherit;
+  border: 1px solid #230629;
+  border-radius: 5px;
+  background: #7498da;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.button:hover,
+.button:active {
+  background: #8ed5e7;
+  border-color: #741188;
+}
+
+.button:focus {
+  outline: none;
+}
+
